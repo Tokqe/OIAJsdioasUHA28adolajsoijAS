@@ -1,0 +1,708 @@
+--[[Developed By Tokqe!.]]
+
+
+
+local TokqePanel = Instance.new("ScreenGui")
+local Frame1 = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TopLabel = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UICorner = Instance.new("UICorner")
+local BottomLabel = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local Enter = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Deco = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Deco_2 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local Frame2 = Instance.new("Frame")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Loaded = Instance.new("TextLabel")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local Lines = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local BottomScript = Instance.new("TextLabel")
+local Flight = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Teleport = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ComingSoon = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local ComingSoon_2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local Deco_3 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local Deco_4 = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local Deco_5 = Instance.new("TextLabel")
+local UICorner_12 = Instance.new("UICorner")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local UICorner_13 = Instance.new("UICorner")
+local UserId = Instance.new("TextLabel")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local Rank = Instance.new("TextLabel")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local Plan = Instance.new("TextLabel")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+
+TokqePanel.Name = "TokqePanel"
+TokqePanel.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TokqePanel.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame1.Name = "Frame1"
+Frame1.Parent = TokqePanel
+Frame1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame1.BorderSizePixel = 0
+Frame1.Position = UDim2.new(0.275161982, 0, 0.313953489, 0)
+Frame1.Size = UDim2.new(0.472240806, 0, 0.47819972, 0)
+
+ImageLabel.Parent = Frame1
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.ClipsDescendants = true
+ImageLabel.Position = UDim2.new(0.024079321, 0, 0.0404241234, 0)
+ImageLabel.Size = UDim2.new(0.957507074, 0, 0.929411769, 0)
+ImageLabel.Image = "rbxassetid://11749089365"
+ImageLabel.ImageColor3 = Color3.fromRGB(55, 85, 255)
+
+TopLabel.Name = "TopLabel"
+TopLabel.Parent = Frame1
+TopLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TopLabel.BackgroundTransparency = 1.000
+TopLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopLabel.BorderSizePixel = 0
+TopLabel.Size = UDim2.new(1, 0, 0.14705883, 0)
+TopLabel.Font = Enum.Font.SourceSansBold
+TopLabel.Text = "Tokqe's Panel"
+TopLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TopLabel.TextScaled = true
+TopLabel.TextSize = 14.000
+TopLabel.TextWrapped = true
+
+UITextSizeConstraint.Parent = TopLabel
+UITextSizeConstraint.MaxTextSize = 50
+
+UICorner.CornerRadius = UDim.new(0, 25)
+UICorner.Parent = Frame1
+
+BottomLabel.Name = "BottomLabel"
+BottomLabel.Parent = Frame1
+BottomLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BottomLabel.BackgroundTransparency = 1.000
+BottomLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BottomLabel.BorderSizePixel = 0
+BottomLabel.Position = UDim2.new(0.358356953, 0, 0.14705883, 0)
+BottomLabel.Size = UDim2.new(0.283286124, 0, 0.0647058859, 0)
+BottomLabel.Font = Enum.Font.SourceSansBold
+BottomLabel.Text = "v0.1 Created By Tokqe"
+BottomLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+BottomLabel.TextScaled = true
+BottomLabel.TextSize = 14.000
+BottomLabel.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = BottomLabel
+UITextSizeConstraint_2.MaxTextSize = 22
+
+Enter.Name = "Enter"
+Enter.Parent = Frame1
+Enter.BackgroundColor3 = Color3.fromRGB(55, 85, 255)
+Enter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Enter.BorderSizePixel = 0
+Enter.Position = UDim2.new(0.358356953, 0, 0.455882341, 0)
+Enter.Size = UDim2.new(0.283286124, 0, 0.14705883, 0)
+Enter.Font = Enum.Font.SourceSansBold
+Enter.Text = "ENTER"
+Enter.TextColor3 = Color3.fromRGB(0, 0, 0)
+Enter.TextScaled = true
+Enter.TextSize = 14.000
+Enter.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 25)
+UICorner_2.Parent = Enter
+
+Deco.Name = "Deco"
+Deco.Parent = Enter
+Deco.BackgroundColor3 = Color3.fromRGB(55, 85, 255)
+Deco.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Deco.BorderSizePixel = 0
+Deco.Position = UDim2.new(1.15499651, 0, 0, 0)
+Deco.Size = UDim2.new(1.00066936, 0, 0.99999994, 0)
+Deco.Font = Enum.Font.SourceSans
+Deco.Text = ""
+Deco.TextColor3 = Color3.fromRGB(0, 0, 0)
+Deco.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 25)
+UICorner_3.Parent = Deco
+
+UIAspectRatioConstraint.Parent = Deco
+UIAspectRatioConstraint.AspectRatio = 4.000
+
+Deco_2.Name = "Deco"
+Deco_2.Parent = Enter
+Deco_2.BackgroundColor3 = Color3.fromRGB(55, 85, 255)
+Deco_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Deco_2.BorderSizePixel = 0
+Deco_2.Position = UDim2.new(-1.18500316, 0, 0, 0)
+Deco_2.Size = UDim2.new(1.00066936, 0, 0.99999994, 0)
+Deco_2.Font = Enum.Font.SourceSans
+Deco_2.Text = ""
+Deco_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Deco_2.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 25)
+UICorner_4.Parent = Deco_2
+
+UIAspectRatioConstraint_2.Parent = Deco_2
+UIAspectRatioConstraint_2.AspectRatio = 4.000
+
+UITextSizeConstraint_3.Parent = Enter
+UITextSizeConstraint_3.MaxTextSize = 50
+
+UIAspectRatioConstraint_3.Parent = Enter
+UIAspectRatioConstraint_3.AspectRatio = 3.997
+
+Frame2.Name = "Frame2"
+Frame2.Parent = TokqePanel
+Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(0.275161982, 0, 0.313953489, 0)
+Frame2.Size = UDim2.new(0.472240806, 0, 0.47819972, 0)
+Frame2.Visible = false
+
+ImageLabel_2.Parent = Frame2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.ClipsDescendants = true
+ImageLabel_2.Position = UDim2.new(-0.00116295309, 0, -0.000752348045, 0)
+ImageLabel_2.Size = UDim2.new(1, 0, 1, 0)
+ImageLabel_2.Image = "rbxassetid://11749089365"
+ImageLabel_2.ImageColor3 = Color3.fromRGB(255, 85, 0)
+
+Loaded.Name = "Loaded"
+Loaded.Parent = Frame2
+Loaded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Loaded.BackgroundTransparency = 1.000
+Loaded.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loaded.BorderSizePixel = 0
+Loaded.Size = UDim2.new(1, 0, 0.0676470622, 0)
+Loaded.Font = Enum.Font.SourceSansBold
+Loaded.Text = "100% Loaded"
+Loaded.TextColor3 = Color3.fromRGB(255, 255, 255)
+Loaded.TextScaled = true
+Loaded.TextSize = 14.000
+Loaded.TextWrapped = true
+
+UITextSizeConstraint_4.Parent = Loaded
+UITextSizeConstraint_4.MaxTextSize = 23
+
+Lines.Name = "Lines"
+Lines.Parent = Frame2
+Lines.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Lines.BackgroundTransparency = 1.000
+Lines.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Lines.BorderSizePixel = 0
+Lines.Position = UDim2.new(-0.0130395647, 0, -0.0289410762, 0)
+Lines.Size = UDim2.new(1.02691221, 0, 1.0676471, 0)
+
+UICorner_5.CornerRadius = UDim.new(0, 25)
+UICorner_5.Parent = Lines
+
+BottomScript.Name = "BottomScript"
+BottomScript.Parent = Frame2
+BottomScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BottomScript.BackgroundTransparency = 1.000
+BottomScript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BottomScript.BorderSizePixel = 0
+BottomScript.Position = UDim2.new(0.366855532, 0, 0.0676470622, 0)
+BottomScript.Size = UDim2.new(0.271954685, 0, 0.0941176489, 0)
+BottomScript.Font = Enum.Font.SourceSansBold
+BottomScript.Text = "Scripts"
+BottomScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+BottomScript.TextScaled = true
+BottomScript.TextSize = 14.000
+BottomScript.TextWrapped = true
+
+Flight.Name = "Flight"
+Flight.Parent = BottomScript
+Flight.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Flight.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Flight.BorderSizePixel = 0
+Flight.Position = UDim2.new(1.39600623, 0, 10.5625, 0)
+Flight.Size = UDim2.new(0, 154, 0, 49)
+Flight.Font = Enum.Font.SourceSansBold
+Flight.Text = "Flight."
+Flight.TextColor3 = Color3.fromRGB(0, 0, 0)
+Flight.TextSize = 28.000
+Flight.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 25)
+UICorner_6.Parent = Flight
+
+Teleport.Name = "Teleport"
+Teleport.Parent = BottomScript
+Teleport.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.BorderSizePixel = 0
+Teleport.Position = UDim2.new(0.532629669, 0, 10.5625, 0)
+Teleport.Size = UDim2.new(0, 154, 0, 49)
+Teleport.Font = Enum.Font.SourceSansBold
+Teleport.Text = "Teleport."
+Teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.TextSize = 28.000
+Teleport.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 25)
+UICorner_7.Parent = Teleport
+
+ComingSoon.Name = "ComingSoon."
+ComingSoon.Parent = BottomScript
+ComingSoon.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+ComingSoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon.BorderSizePixel = 0
+ComingSoon.Position = UDim2.new(-1.17708337, 0, 10.5625, 0)
+ComingSoon.Size = UDim2.new(0, 154, 0, 49)
+ComingSoon.Font = Enum.Font.SourceSansBold
+ComingSoon.Text = "ComingSoon."
+ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon.TextSize = 28.000
+ComingSoon.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 25)
+UICorner_8.Parent = ComingSoon
+
+ComingSoon_2.Name = "ComingSoon."
+ComingSoon_2.Parent = BottomScript
+ComingSoon_2.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+ComingSoon_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon_2.BorderSizePixel = 0
+ComingSoon_2.Position = UDim2.new(-0.30907917, 0, 10.5625, 0)
+ComingSoon_2.Size = UDim2.new(0, 154, 0, 49)
+ComingSoon_2.Font = Enum.Font.SourceSansBold
+ComingSoon_2.Text = "ComingSoon."
+ComingSoon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon_2.TextSize = 28.000
+ComingSoon_2.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 25)
+UICorner_9.Parent = ComingSoon_2
+
+UITextSizeConstraint_5.Parent = BottomScript
+UITextSizeConstraint_5.MaxTextSize = 32
+
+Deco_3.Name = "Deco"
+Deco_3.Parent = Frame2
+Deco_3.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Deco_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Deco_3.BorderSizePixel = 0
+Deco_3.Position = UDim2.new(0.334308743, 0, 0.490999997, 0)
+Deco_3.Size = UDim2.new(0.283286124, 0, 0.14705883, 0)
+Deco_3.Font = Enum.Font.SourceSans
+Deco_3.Text = ""
+Deco_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Deco_3.TextScaled = true
+Deco_3.TextSize = 14.000
+Deco_3.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 25)
+UICorner_10.Parent = Deco_3
+
+UITextSizeConstraint_6.Parent = Deco_3
+UITextSizeConstraint_6.MaxTextSize = 14
+
+Deco_4.Name = "Deco"
+Deco_4.Parent = Frame2
+Deco_4.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Deco_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Deco_4.BorderSizePixel = 0
+Deco_4.Position = UDim2.new(0.0141954282, 0, 0.490999997, 0)
+Deco_4.Size = UDim2.new(0.283286124, 0, 0.14705883, 0)
+Deco_4.Font = Enum.Font.SourceSans
+Deco_4.Text = ""
+Deco_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Deco_4.TextScaled = true
+Deco_4.TextSize = 14.000
+Deco_4.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 25)
+UICorner_11.Parent = Deco_4
+
+UITextSizeConstraint_7.Parent = Deco_4
+UITextSizeConstraint_7.MaxTextSize = 14
+
+Deco_5.Name = "Deco"
+Deco_5.Parent = Frame2
+Deco_5.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Deco_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Deco_5.BorderSizePixel = 0
+Deco_5.Position = UDim2.new(0.682662845, 0, 0.488235295, 0)
+Deco_5.Size = UDim2.new(0.283286124, 0, 0.14705883, 0)
+Deco_5.Font = Enum.Font.SourceSans
+Deco_5.Text = ""
+Deco_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Deco_5.TextScaled = true
+Deco_5.TextSize = 14.000
+Deco_5.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 25)
+UICorner_12.Parent = Deco_5
+
+UITextSizeConstraint_8.Parent = Deco_5
+UITextSizeConstraint_8.MaxTextSize = 14
+
+UICorner_13.CornerRadius = UDim.new(0, 25)
+UICorner_13.Parent = Frame2
+
+UserId.Name = "UserId"
+UserId.Parent = Frame2
+UserId.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UserId.BackgroundTransparency = 1.000
+UserId.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UserId.BorderSizePixel = 0
+UserId.Position = UDim2.new(0.334308743, 0, 0.526470602, 0)
+UserId.Size = UDim2.new(0.28186968, 0, 0.0676470622, 0)
+UserId.Font = Enum.Font.SourceSansBold
+UserId.Text = "UserId: Unknown"
+UserId.TextColor3 = Color3.fromRGB(255, 255, 255)
+UserId.TextScaled = true
+UserId.TextSize = 14.000
+UserId.TextWrapped = true
+
+UITextSizeConstraint_9.Parent = UserId
+UITextSizeConstraint_9.MaxTextSize = 23
+
+Rank.Name = "Rank"
+Rank.Parent = Frame2
+Rank.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rank.BackgroundTransparency = 1.000
+Rank.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Rank.BorderSizePixel = 0
+Rank.Position = UDim2.new(0.682750642, 0, 0.529411793, 0)
+Rank.Size = UDim2.new(0.28186968, 0, 0.0676470622, 0)
+Rank.Font = Enum.Font.SourceSansBold
+Rank.Text = "Rank: User"
+Rank.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rank.TextScaled = true
+Rank.TextSize = 14.000
+Rank.TextWrapped = true
+
+UITextSizeConstraint_10.Parent = Rank
+UITextSizeConstraint_10.MaxTextSize = 23
+
+Plan.Name = "Plan"
+Plan.Parent = Frame2
+Plan.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Plan.BackgroundTransparency = 1.000
+Plan.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Plan.BorderSizePixel = 0
+Plan.Position = UDim2.new(3.11227413e-05, 0, 0.526470602, 0)
+Plan.Size = UDim2.new(0.28186968, 0, 0.0676470622, 0)
+Plan.Font = Enum.Font.SourceSansBold
+Plan.Text = "Plan: Free"
+Plan.TextColor3 = Color3.fromRGB(255, 255, 255)
+Plan.TextScaled = true
+Plan.TextSize = 14.000
+Plan.TextWrapped = true
+
+UITextSizeConstraint_11.Parent = Plan
+UITextSizeConstraint_11.MaxTextSize = 23
+
+
+local function UBBDZRD_fake_script() 
+	local script = Instance.new('LocalScript', Enter)
+
+	local button = script.Parent 
+	
+	local player = game.Players.LocalPlayer
+	local playerGui = player.PlayerGui
+	local screenGui = playerGui.TokqePanel
+	local frame1 = screenGui.Frame1
+	local frame2 = screenGui.Frame2
+	
+	
+	local TweenService = game:GetService("TweenService")
+	
+	
+	local function toggleVisibility()
+		frame1.Visible = false 
+	
+		
+		local frame2TransparencyTweenInfo = TweenInfo.new(
+			0.5, -- Duration
+			Enum.EasingStyle.Quart,
+			Enum.EasingDirection.Out,
+			0, 
+			false, 
+			0.1 
+		)
+	
+		local frame2TransparencyTween = TweenService:Create(frame2, frame2TransparencyTweenInfo, { Transparency = 0 })
+		frame2.Visible = true 
+	
+		
+		local frame2PositionTweenInfo = TweenInfo.new(
+			0.5, 
+			Enum.EasingStyle.Quart, 
+			Enum.EasingDirection.Out, 
+			0,
+			false,
+			0.1 
+		)
+	
+		local startPos = UDim2.new(0.274, 0, 0.985, 0) 
+		local endPos = UDim2.new(0.275, 0, 0.314, 0)
+		frame2.Position = startPos -- Set initial position
+	
+		local frame2PositionTween = TweenService:Create(frame2, frame2PositionTweenInfo, { Position = endPos })
+
+		frame2TransparencyTween:Play()
+		frame2PositionTween:Play()
+	end
+	
+	button.MouseButton1Click:Connect(toggleVisibility)
+	
+end
+coroutine.wrap(UBBDZRD_fake_script)()
+local function IEEYHJ_fake_script() 
+	local script = Instance.new('LocalScript', Frame1)
+
+	frame = script.Parent
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(IEEYHJ_fake_script)()
+local function FVNPGO_fake_script() 
+	local script = Instance.new('LocalScript', Flight)
+
+	local button = script.Parent
+	
+	local function onClick()
+		local check -- "N/A_S"
+		Animation4 = Instance.new("Animation")
+		Animation4.Name = "Hover"
+		Animation4.Parent = game.Workspace
+		Animation4.AnimationId = "http://www.roblox.com/asset/?id=14776792514/"
+		Animation6 = Instance.new("Animation")
+		Animation6.Name = "Fly"
+		Animation6.Parent = game.Workspace
+		Animation6.AnimationId = "http://www.roblox.com/asset/?id=14776776437/"
+		Tool0 = Instance.new("Tool")
+		Tool0.Name = "Fly"
+		Tool0.Parent = game.Players.LocalPlayer.Backpack
+		Tool0.CanBeDropped = false
+		Tool0.RequiresHandle = false
+	
+		-- Set the texture Id
+		Tool0.TextureId = "http://www.roblox.com/asset/?id=2737978112"
+	
+		repeat wait()
+			local u1 = false
+			local u2 = game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):LoadAnimation(game.Workspace.Hover)
+			local u3 = nil
+			local u4 = nil
+			local u5 = false
+			local u6 = false
+			local u7 = game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):LoadAnimation(game.Workspace.Fly)
+			Tool0.Equipped:connect(function(p1)
+				p1.TargetFilter = workspace
+				u1 = true
+				u2:Play()
+				u3 = Instance.new("BodyGyro")
+				u3.Name = "N/A_S"
+				u3.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+				u3.MaxTorque = Vector3.new(30000, 0, 30000)
+				u3.P = u3.P * 5
+				u3.CFrame = CFrame.new(0, 0, 0)
+				u4 = Instance.new("BodyPosition")
+				u4.Name = "N/A_S"
+				u4.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+				u4.MaxForce = Vector3.new(60000, 60000, 60000)
+				u4.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+				p1.Button1Down:connect(function()
+					if u5 then
+						return
+					end
+					u5 = true
+					u6 = true
+					u7:Play()
+					local v5 = Instance.new("BodyVelocity", game.Players.LocalPlayer.Character.HumanoidRootPart)
+					v5.MaxForce = Vector3.new(50000, 50000, 50000)
+					v5.Velocity = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p, p1.Hit.p).lookVector * 85
+					v5.Name = "N/A_S"
+					u3.MaxTorque = Vector3.new(30000, 30000, 30000)
+					u3.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p, p1.Hit.p)
+					u4.Parent = nil
+					game.Players.LocalPlayer.Character:WaitForChild("Humanoid").AutoRotate = false
+					if u2.IsPlaying then
+						u2:Stop()
+					end
+					while u6 do
+						v5.Velocity = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p, p1.Hit.p).lookVector * 85
+						u3.CFrame = CFrame.new(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.p, p1.Hit.p)
+						game:GetService("RunService").Heartbeat:wait()
+					end
+					game.Players.LocalPlayer.Character:WaitForChild("Humanoid").AutoRotate = true
+					v5:Destroy()
+					if u4 ~= nil then
+						u4.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+						u4.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+					end
+					if u3 ~= nil then
+						u3.MaxTorque = Vector3.new(30000, 0, 30000)
+						u3.CFrame = CFrame.new(0, 0, 0)
+					end
+					u6 = false
+					if u1 then
+						u2:Play()
+					end
+					u7:Stop()
+					wait(0.3)
+					u5 = false
+				end)
+				p1.Button1Up:connect(function()
+					u6 = false
+				end)
+			end)
+			Tool0.Unequipped:connect(function()
+				u1 = false
+				u6 = false
+				u3:Destroy()
+				u3 = nil
+				u4:Destroy()
+				u4 = nil
+				if u2.IsPlaying then
+					u2:Stop()
+				end
+			end)
+		until game.Players.LocalPlayer.Character:FindFirstChild("Humanoid")
+	end
+	
+	button.MouseButton1Click:Connect(onClick)
+	
+end
+coroutine.wrap(FVNPGO_fake_script)()
+local function JTBJ_fake_script() -- UserId.LocalScript 
+	local script = Instance.new('LocalScript', UserId)
+
+	local TextLabel = script.Parent
+	local function getDisplayName(player)
+		local success, result = pcall(function()
+			return player.DisplayName
+		end)
+	
+		if success then
+			return result
+		else
+			return nil
+		end
+	end
+	local function updateDisplayName()
+		local player = game.Players.LocalPlayer
+		if player then
+			local displayName = getDisplayName(player)
+			if displayName then
+				TextLabel.Text = "UserId: " .. displayName
+			else
+				TextLabel.Text = "Failed to get display name"
+			end
+		else
+			TextLabel.Text = "Failed to get local player"
+		end
+	end
+	
+	game.Players.LocalPlayer.CharacterAdded:Connect(updateDisplayName)
+	updateDisplayName()
+	
+end
+coroutine.wrap(JTBJ_fake_script)()
+local function NABRCT_fake_script() -- Rank.LocalScript 
+	local script = Instance.new('LocalScript', Rank)
+
+	local TextLabel = script.Parent
+	local function getRank()
+		local player = game.Players.LocalPlayer
+		if player then
+			local username = player.Name
+			if username == "CZ9VBMGSSX34" then
+				return "Owner"
+			elseif username == "dontfwandy" then
+				return "Developer"
+			elseif username == "2k_vcg" then
+				return "Tester"
+			else
+				return "User"
+			end
+		else
+			return "Failed to get rank"
+		end
+	end
+	local function updateRank()
+		local rank = getRank()
+		TextLabel.Text = "Rank: " .. rank
+	end
+	
+	updateRank()
+	
+end
+coroutine.wrap(NABRCT_fake_script)()
+local function ZKRRQ_fake_script() -- Plan.LocalScript 
+	local script = Instance.new('LocalScript', Plan)
+
+	local TextLabel = script.Parent
+	local function getPlan()
+		local player = game.Players.LocalPlayer
+		if player then
+			local username = player.Name
+			if username == "CZ9VBMGSSX34" then
+				return "Infinite"
+			elseif username == "xxdunf" then
+				return "Premium"
+			else
+				return "Free"
+			end
+		else
+			return "Failed to get plan"
+		end
+	end
+	local function updatePlan()
+		local plan = getPlan()
+		TextLabel.Text = "Plan: " .. plan
+	end
+	
+	updatePlan()
+	
+end
+coroutine.wrap(ZKRRQ_fake_script)()
+local function GWJLKYE_fake_script() -- Frame2.LocalScript 
+	local script = Instance.new('LocalScript', Frame2)
+
+	frame = script.Parent.Frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(GWJLKYE_fake_script)()
+local function WVFRFG_fake_script() -- Frame2.LocalScript 
+	local script = Instance.new('LocalScript', Frame2)
+
+	frame = script.Parent
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(WVFRFG_fake_script)()
